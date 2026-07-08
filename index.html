@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajat Sharma — Senior Software Engineer</title>
+<meta name="description" content="Rajat Sharma — Senior Software Engineer specializing in Django, DRF, and scalable backend systems. 8 years building production APIs and microservices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">rajat<span class="dim">@</span>sharma<span class="cursor">_</span></a>
+    <div class="nav-links">
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#github">github</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contact</a>
+      <a href="assets/files/Rajat_Sharma_CV.pdf" class="nav-cta" download="Rajat_Sharma_CV.pdf">resume.pdf &darr;</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="status-bar">
+        <span class="dot dot-live"></span>
+        <span class="mono">status: open to lead engineering roles</span>
+      </div>
+
+      <div class="quick-links">
+        <a href="mailto:rajat4665@gmail.com" class="quick-link" title="Email">&#9993; Email</a>
+        <a href="tel:+917508860012" class="quick-link" title="Phone">&#9742; Call</a>
+        <a href="https://github.com/rajat4665" target="_blank" rel="noopener" class="quick-link" title="GitHub">&#9670; GitHub</a>
+        <a href="https://linkedin.com/in/rajat-sharma-dev" target="_blank" rel="noopener" class="quick-link" title="LinkedIn">&#9670; LinkedIn</a>
+      </div>
+
+      <h1 class="hero-title">
+        Rajat Sharma
+      </h1>
+      <p class="hero-role">Senior Software Engineer &mdash; Backend Systems &amp; APIs</p>
+
+      <p class="hero-desc">
+        I turn messy, high-stakes backend problems into systems that just work &mdash; and keep working
+        after I've moved on. Over 8 years I've taken a real-estate platform from 5 U.S. states to 10,
+        led a 12-engineer team through biweekly releases, and now own data pipelines for Reuters'
+        global content platform. Django and DRF are my home base; AWS, Celery and Go are what I reach
+        for when Django alone isn't enough.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View deploy log</a>
+        <a href="assets/files/Rajat_Sharma_CV.pdf" class="btn btn-ghost" download="Rajat_Sharma_CV.pdf">Download resume &darr;</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <div class="hero-metrics">
+        <div class="metric">
+          <span class="metric-num">8<span class="unit">yrs</span></span>
+          <span class="metric-label">in production systems</span>
+        </div>
+        <div class="metric">
+          <span class="metric-num">12</span>
+          <span class="metric-label">engineers led at Kellton</span>
+        </div>
+        <div class="metric">
+          <span class="metric-num">100<span class="unit">%</span></span>
+          <span class="metric-label">market coverage growth @ Scop</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT HIGHLIGHTS -->
+  <section class="section section-alt" id="impact">
+    <div class="section-inner">
+      <p class="eyebrow">// impact log</p>
+      <h2 class="section-title">What actually moved the needle</h2>
+      <p class="section-sub">Not just what I built &mdash; what changed because of it.</p>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <span class="impact-metric">5 &rarr; 10</span>
+          <p class="impact-desc">U.S. states covered by Scop's real-estate platform under my ownership &mdash; a 100% jump in market reach and revenue.</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-metric">12 Engineers</span>
+          <p class="impact-desc">Led and mentored a team of 12 at Kellton as Scrum Master, owning biweekly releases, PR review, and technical direction.</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-metric">350+ Machines</span>
+          <p class="impact-desc">IoT vending fleet at Grubox run on a Django backend I built, plus a real-time offers engine that lifted sales on weak SKUs.</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-metric">manual &rarr; automated</span>
+          <p class="impact-desc">Replaced manual partner onboarding, logo updates and metadata fixes at Reuters Connect with serverless AWS pipelines.</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-metric">Celery + Redis</span>
+          <p class="impact-desc">Built async task pipelines across Scop and Prism &mdash; scheduled MLS syncs, work-order automation, and background processing that kept both platforms responsive under load.</p>
+        </div>
+        <div class="impact-card">
+          <span class="impact-metric">high availability</span>
+          <p class="impact-desc">Kept JLL's Prism platform reliable at scale &mdash; async Celery/Redis pipelines, Sentry/Datadog-backed production support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">// summary</p>
+      <div class="about-grid">
+        <p class="about-text">
+          I design and ship RESTful APIs, background-processing pipelines, and cloud-native services
+          in Python &mdash; primarily Django and Django REST Framework, with FastAPI and Flask where
+          they fit better. I've taken products from early-startup scrappiness (Grubox, Teamwave) through
+          enterprise scale (Reuters Connect, JLL's Prism), and led a team of five through client delivery
+          and biweekly releases at Scop. Comfortable owning a service end-to-end: schema design,
+          async task orchestration with Celery/Redis, deployment on AWS, and the on-call debugging
+          that comes after.
+        </p>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-k">Based in</span><span class="fact-v">India (remote-ready)</span></div>
+          <div class="fact"><span class="fact-k">Focus</span><span class="fact-v">Django / DRF / AWS / Microservices</span></div>
+          <div class="fact"><span class="fact-k">Currently</span><span class="fact-v">SII Group India &mdash; Reuters Connect</span></div>
+          <div class="fact"><span class="fact-k">Education</span><span class="fact-v">B.Tech ECE, GNDU Amritsar</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow">// deploy log</p>
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">Every role, read top to bottom like a release history.</p>
+
+      <div class="deploylog" id="deploylog">
+
+        <article class="entry" data-status="active">
+          <div class="entry-meta">
+            <span class="pill pill-active">ACTIVE</span>
+            <span class="mono ts">2025-08 &rarr; present</span>
+          </div>
+          <h3 class="entry-role">Senior Software Engineer <span class="entry-co">@ SII Group India</span></h3>
+          <p class="entry-sub">Reuters Connect &mdash; global content distribution platform</p>
+          <ul class="entry-points">
+            <li>Led backend development for a platform letting media orgs buy, sell and distribute news across video, photo, text and audio.</li>
+            <li>Built serverless data-migration and backfill pipelines on AWS Lambda, S3, DynamoDB and SWF for partner onboarding and metadata sync.</li>
+            <li>Used CloudWatch for monitoring/incident response, and Jenkins for CI/CD across environments.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">DRF</span><span class="tag">AWS Lambda</span><span class="tag">DynamoDB</span><span class="tag">SWF</span><span class="tag">CloudWatch</span><span class="tag">Jenkins</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2024-10 &rarr; 2025-02</span>
+          </div>
+          <h3 class="entry-role">Senior Software Engineer <span class="entry-co">@ Quarks Technosoft</span></h3>
+          <p class="entry-sub">Autodesk Testing Hub &mdash; automated smoke-testing platform</p>
+          <ul class="entry-points">
+            <li>Led backend API development for Autodesk's testing hub on Django, built for scale.</li>
+            <li>Designed a microservices architecture on AWS Lambda + DynamoDB with CloudWatch-based monitoring.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">DRF</span><span class="tag">FastAPI</span><span class="tag">AWS Lambda</span><span class="tag">Kubernetes</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2021-11 &rarr; 2024-10</span>
+          </div>
+          <h3 class="entry-role">Senior Software Engineer <span class="entry-co">@ Kellton</span></h3>
+          <p class="entry-sub">Scop (real-estate) &amp; Prism (JLL property management)</p>
+          <ul class="entry-points">
+            <li>Grew a real-estate buying platform from 5 to 10 active U.S. states &mdash; a 100% jump in coverage and revenue.</li>
+            <li>Built a Go-based microservice for MLS data retrieval, integrated via daily Celery-scheduled jobs into the Django monolith.</li>
+            <li>Managed and mentored a team of 12 as Scrum Master; owned biweekly releases, PR review, and technical decisions.</li>
+            <li>On Prism (JLL): built async task processing with Celery/Redis for work orders, inspections and maintenance scheduling; handled production support with Sentry &amp; Datadog.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">DRF</span><span class="tag">Flask</span><span class="tag">FastAPI</span><span class="tag">VueJS</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">PostgreSQL</span><span class="tag">Sentry</span><span class="tag">Datadog</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2020-08 &rarr; 2021-11</span>
+          </div>
+          <h3 class="entry-role">Full Stack Developer <span class="entry-co">@ Teamwave</span></h3>
+          <p class="entry-sub">CRM / PM / HRM productivity suite &mdash; core startup team</p>
+          <ul class="entry-points">
+            <li>Built the Products and Email sub-modules of the CRM &mdash; inventory/revenue tracking and inbox-to-CRM email linking via AWS SES.</li>
+            <li>Both features were top customer requests and became competitive differentiators.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">DRF</span><span class="tag">Flask</span><span class="tag">AngularJS</span><span class="tag">AWS SES</span><span class="tag">PostgreSQL</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2019-12 &rarr; 2020-07</span>
+          </div>
+          <h3 class="entry-role">Full Stack Developer <span class="entry-co">@ Grubox</span></h3>
+          <p class="entry-sub">IoT-based vending machine network, NCR region</p>
+          <ul class="entry-points">
+            <li>Built the Django/DRF backend powering the mobile ordering app for 350+ vending machines.</li>
+            <li>Shipped a real-time offers &amp; discount engine that lifted daily sales on low-performing SKUs.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">DRF</span><span class="tag">AngularJS</span><span class="tag">Redis</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2018-12 &rarr; 2019-11</span>
+          </div>
+          <h3 class="entry-role">Full Stack Developer <span class="entry-co">@ Paradise Techsoft</span></h3>
+          <ul class="entry-points">
+            <li>Built internal dashboards with Django/Bootstrap; integrated ML models into web applications.</li>
+            <li>Learned production web scraping with BeautifulSoup and Scrapy.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span><span class="tag">Flask</span><span class="tag">Pandas</span><span class="tag">scikit-learn</span><span class="tag">Selenium</span>
+          </div>
+        </article>
+
+        <article class="entry" data-status="done">
+          <div class="entry-meta">
+            <span class="pill pill-done">COMPLETED</span>
+            <span class="mono ts">2018-06 &rarr; 2018-11</span>
+          </div>
+          <h3 class="entry-role">Python Developer Intern <span class="entry-co">@ Sachtech Solutions</span></h3>
+          <ul class="entry-points">
+            <li>First production Django experience &mdash; internal dashboards, third-party API integration, and web scraping.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Django</span><span class="tag">Bootstrap</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">// systems shipped</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card project-card-wide">
+          <div class="project-head">
+            <h3>Reuters Connect</h3>
+            <span class="mono project-tag">content platform &middot; Aug 2025 &ndash; present</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> AWS Lambda &middot; DynamoDB &middot; S3 &middot; SWF &middot; Django/DRF</p>
+          <ul class="project-points">
+            <li>Own backend development for a global content-distribution platform where media organizations buy, sell and distribute news across video, photo, text and audio formats.</li>
+            <li>Design data-ingestion pipelines and microservices supporting partner onboarding, provider integrations, metadata processing and reliable content delivery.</li>
+            <li>Build Python migration/backfill services for legacy and live datasets, handling bulk processing while preserving data accuracy and consistency.</li>
+            <li>Architect serverless workflows on Lambda, S3, DynamoDB and AWS SWF to automate onboarding, logo management and metadata sync across distributed systems.</li>
+            <li>Automate previously manual operations &mdash; partner logo updates, metadata corrections, bulk updates &mdash; cutting manual effort and turnaround time.</li>
+            <li>Use CloudWatch for monitoring/incident investigation and Jenkins for CI/CD; apply prompt engineering to streamline content-ops workflows.</li>
+          </ul>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">AWS Lambda</span><span class="tag">DynamoDB</span><span class="tag">SWF</span><span class="tag">Jenkins</span></div>
+        </article>
+
+        <article class="project-card project-card-wide">
+          <div class="project-head">
+            <h3>Scop</h3>
+            <span class="mono project-tag">real estate &middot; Nov 2021 &ndash; Oct 2024</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> Django/DRF &middot; Celery &middot; PostgreSQL &middot; Go (data service)</p>
+          <ul class="project-points">
+            <li>Owned backend development for a real-estate buying platform, growing live coverage from 5 to 10 eastern U.S. states &mdash; a 100% increase in market reach and revenue.</li>
+            <li>Designed a microservices architecture with a Go service for high-throughput MLS data retrieval, integrated into the Django monolith via daily Celery-scheduled jobs.</li>
+            <li>Built ingestion pipelines normalizing raw listing data (Zillow, Realtor, Rent) into a relational schema, exposed through DRF APIs.</li>
+            <li>Implemented core business logic for yield and maintenance-cost calculations used by the market team to judge property profitability.</li>
+            <li>Managed and mentored a team of 12 engineers as Scrum Master; owned biweekly release cycles, PR review and technical decision-making.</li>
+            <li>Worked directly with clients to gather requirements and translate them into technical scope, keeping delivery predictable as the team grew.</li>
+          </ul>
+          <div class="tags"><span class="tag">Django</span><span class="tag">DRF</span><span class="tag">Celery</span><span class="tag">PostgreSQL</span><span class="tag">Go (integration)</span></div>
+        </article>
+
+        <article class="project-card project-card-wide">
+          <div class="project-head">
+            <h3>Prism</h3>
+            <span class="mono project-tag">property management (JLL) &middot; Nov 2021 &ndash; Oct 2024</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> DRF &middot; Celery/Redis &middot; Sentry &middot; Datadog</p>
+          <ul class="project-points">
+            <li>Built and maintained scalable RESTful APIs for a large-scale property-management platform used by JLL across web and mobile.</li>
+            <li>Supported work-order management, inspections, preventive maintenance scheduling, reservations, tenant communications, vendor coordination and invoicing.</li>
+            <li>Implemented asynchronous task processing with Celery/Redis to automate critical operations and improve responsiveness.</li>
+            <li>Owned production support and debugging, using Sentry and Datadog to catch issues before they affected availability.</li>
+            <li>Balanced new feature delivery with performance optimization and platform stability across a live, high-usage system.</li>
+          </ul>
+          <div class="tags"><span class="tag">DRF</span><span class="tag">Celery</span><span class="tag">Redis</span><span class="tag">Sentry</span><span class="tag">Datadog</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Testing Hub</h3>
+            <span class="mono project-tag">internal tooling &middot; Oct 2024 &ndash; Feb 2025</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> Lambda &middot; DynamoDB &middot; Step Functions</p>
+          <ul class="project-points">
+            <li>Led backend API development for Autodesk's smoke-testing automation platform, built for scale from day one.</li>
+            <li>Designed a microservices architecture on AWS Lambda and DynamoDB, avoiding server-management overhead.</li>
+            <li>Set up CloudWatch-based monitoring and alerting to catch failing test runs early.</li>
+            <li>Used CloudFormation to onboard new projects onto the platform without manual environment setup.</li>
+          </ul>
+          <div class="tags"><span class="tag">Lambda</span><span class="tag">Step Functions</span><span class="tag">CloudFormation</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Teamwave</h3>
+            <span class="mono project-tag">SaaS / CRM &middot; Aug 2020 &ndash; Nov 2021</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> DRF &middot; AngularJS &middot; AWS SES</p>
+          <ul class="project-points">
+            <li>Joined the core startup team building a productivity suite spanning CRM, project management and HR modules.</li>
+            <li>Built the Products sub-module end-to-end, letting users track inventory and revenue tied to product orders.</li>
+            <li>Built the Email sub-module, linking full email conversations into the CRM via AWS SES &mdash; one of the most-requested customer features.</li>
+            <li>Both modules drew strong customer feedback and helped the product outperform competitors in the CRM space.</li>
+          </ul>
+          <div class="tags"><span class="tag">DRF</span><span class="tag">AngularJS</span><span class="tag">AWS SES</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Grubox</h3>
+            <span class="mono project-tag">IoT / mobile &middot; Dec 2019 &ndash; Aug 2020</span>
+          </div>
+          <p class="project-core"><span class="core-label">core:</span> Django/DRF &middot; AngularJS &middot; Redis</p>
+          <ul class="project-points">
+            <li>Built the backend powering Grubox's mobile ordering app for a 350+ machine IoT vending fleet.</li>
+            <li>Built the staff dashboard frontend in AngularJS for bulk order placement and inventory monitoring.</li>
+            <li>Shipped internal dashboards and features that improved day-to-day operations for the internal team.</li>
+            <li>Designed a real-time offers-and-discount engine that validated conditions dynamically and lifted sales on underperforming products.</li>
+          </ul>
+          <div class="tags"><span class="tag">Django</span><span class="tag">DRF</span><span class="tag">AngularJS</span><span class="tag">Redis</span></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB ACTIVITY -->
+  <section class="section" id="github">
+    <div class="section-inner">
+      <p class="eyebrow">// live from github</p>
+      <h2 class="section-title">GitHub activity</h2>
+      <p class="section-sub">Pulled straight from <a href="https://github.com/rajat4665" target="_blank" rel="noopener" class="inline-link">github.com/rajat4665</a> &mdash; nothing hand-curated below this line.</p>
+
+      <div class="gh-cal-card" id="ghCalCard">
+        <div class="gh-cal-header" id="ghCalTotal">Loading contributions&hellip;</div>
+        <div class="gh-cal-scroll">
+          <div class="gh-cal-inner">
+            <div class="gh-cal-months" id="ghCalMonths"></div>
+            <div class="gh-cal-body">
+              <div class="gh-cal-days">
+                <span></span><span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span>
+              </div>
+              <div class="gh-cal-grid" id="ghCalGrid"></div>
+            </div>
+          </div>
+        </div>
+        <div class="gh-cal-footer">
+          <a href="https://github.com/rajat4665" target="_blank" rel="noopener" class="inline-link">github.com/rajat4665</a>
+          <div class="gh-cal-legend">
+            <span>Less</span>
+            <span class="gh-cell" data-level="0"></span>
+            <span class="gh-cell" data-level="1"></span>
+            <span class="gh-cell" data-level="2"></span>
+            <span class="gh-cell" data-level="3"></span>
+            <span class="gh-cell" data-level="4"></span>
+            <span>More</span>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="mono gh-repos-label">top repositories</h4>
+      <div class="repos-grid" id="reposGrid">
+        <div class="repo-card repo-loading">
+          <span class="mono">fetching repos&hellip;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <p class="eyebrow">// stack</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Languages</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+          <div class="tags"><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">Bash</span><span class="tag">Java</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Backend</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+          <div class="tags"><span class="tag">Django</span><span class="tag">Django REST Framework</span><span class="tag">FastAPI</span><span class="tag">Flask</span><span class="tag">Celery</span><span class="tag">Redis</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Cloud &amp; DevOps</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+          <div class="tags"><span class="tag">AWS Lambda</span><span class="tag">S3</span><span class="tag">DynamoDB</span><span class="tag">EC2 / RDS</span><span class="tag">GCP</span><span class="tag">Azure</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Jenkins</span><span class="tag">Azure DevOps</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Frontend</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+          <div class="tags"><span class="tag">AngularJS</span><span class="tag">VueJS</span><span class="tag">Bootstrap</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Data &amp; Observability</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+          <div class="tags"><span class="tag">PostgreSQL</span><span class="tag">OpenSearch</span><span class="tag">Sentry</span><span class="tag">Datadog</span><span class="tag">CloudWatch</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">AI &amp; LLM Integration</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+          <div class="tags"><span class="tag">Prompt Engineering</span><span class="tag">Anthropic Claude API</span><span class="tag">LLM-Powered Automation</span><span class="tag">AI-Assisted Workflows</span><span class="tag">AI-Powered Web Crawling</span></div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-head"><h4 class="mono">Practices</h4><span class="prof-bar" title="Proficiency"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+          <div class="tags"><span class="tag">RBAC / Auth</span><span class="tag">TDD</span><span class="tag">Microservices</span><span class="tag">Scrum Master</span><span class="tag">Agile/Scrum</span><span class="tag">Prompt Engineering</span><span class="tag">LLM Integrations</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION + AWARDS -->
+  <section class="section section-alt" id="education">
+    <div class="section-inner">
+      <div class="edu-grid">
+        <div>
+          <p class="eyebrow">// education</p>
+          <h3 class="edu-title">B.Tech, Electronics &amp; Communication</h3>
+          <p class="edu-sub">Guru Nanak Dev University, Amritsar &mdash; 2013 to 2017</p>
+        </div>
+        <div>
+          <p class="eyebrow">// recognition</p>
+          <div class="award-cards">
+            <div class="award-card">
+              <span class="award-card-tag">Recognition</span>
+              <h4>Employee of the Quarter</h4>
+              <p>Dec 2018 &ndash; Mar 2019</p>
+            </div>
+            <div class="award-card">
+              <span class="award-card-tag">Certification</span>
+              <h4>REST API Development with DRF</h4>
+              <p>Udemy</p>
+            </div>
+            <div class="award-card">
+              <span class="award-card-tag">Certification</span>
+              <h4>Django Web Development</h4>
+              <p>Udemy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow">// get in touch</p>
+      <h2 class="section-title">Let's build something reliable.</h2>
+      <p class="section-sub">Open to Lead / Senior Software Engineer roles. Based in India, comfortable working across US/EU hours.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:rajat4665@gmail.com" class="contact-card">
+          <span class="mono contact-label">email</span>
+          <span class="contact-value">rajat4665@gmail.com</span>
+        </a>
+        <a href="tel:+917508860012" class="contact-card">
+          <span class="mono contact-label">phone</span>
+          <span class="contact-value">+91 75088 60012</span>
+        </a>
+        <a href="https://github.com/rajat4665" target="_blank" rel="noopener" class="contact-card">
+          <span class="mono contact-label">github</span>
+          <span class="contact-value">github.com/rajat4665</span>
+        </a>
+        <a href="https://linkedin.com/in/rajat-sharma-dev" target="_blank" rel="noopener" class="contact-card">
+          <span class="mono contact-label">linkedin</span>
+          <span class="contact-value">in/rajat-sharma-dev</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="mono">&copy; <span id="year"></span> Rajat Sharma &mdash; built &amp; deployed via GitHub Actions</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
